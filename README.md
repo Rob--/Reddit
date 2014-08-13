@@ -1,7 +1,7 @@
 My Reddit bots.
 
 + TermMatch
---* Simple bot that searches for given words and either replies or sends a PM (or both) within given subreddits.
+  * Simple bot that searches for given words and either replies or sends a PM (or both) within given subreddits.
 
 #License
 ```

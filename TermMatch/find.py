@@ -15,32 +15,23 @@ import sqlite3
 
 USERNAME = ""
 # Your Reddit's bot username.
-
 PASSWORD = ""
 # Your Reddit's bot password.
-
 USERAGENT = str("TermMatch, /u/" + USERNAME)
 # The bot's user agent. Change this according to your username.
-
 SUBREDDITS = ["all"]
 # Subreddits to search.
-
 WORDS = ["the"]
 # Words to search for.
-
 SEND_REPLY = False
 # If "True", when a match is found the bot will reply with the REPLY_STRING.
-
 REPLY_STRING = "You're welcome."
 # If REPLY is "True", this is what will be commented.
 # See the README.md file for formatting information.
-
 SEND_PM = False
 # If "True", when the bot is unable to comment (due to the RateLimit being exceeded) it will send a PM with the REPLY_STRING.
-
 PM_SUBJECT = "PM's subject."
 # The PM's subject.
-
 SLEEP = 1
 # How long (in seconds) to sleep between comment searching.
 # If you're continually searching subreddits I recommend sleeping to save bandwidth.

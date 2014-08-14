@@ -15,5 +15,5 @@ If the REPLY_STRING is:
 `"*This* is italic, **this** is bold. [Here's a link.](http://google.com) and here's quote:\n> Quote."`  
 The comment/PM will look like:  
 ***
-"*This* is italic, **this** is bold. [Here's a link.](http://google.com)
-> Quote"  
+*This* is italic, **this** is bold. [Here's a link.](http://google.com)
+> Quote

@@ -70,6 +70,7 @@ def work(comment):
         if SEND_REPLY: comment.reply(REPLY_STRING)
         if SEND_PM: reddit.send_message(comment.author, PM_SUBJECT, REPLY_STRING, raise_captcha_exception=True)
         insertComment(comment.id)
+        print("Added '%s' to database." % comment.id)
     except RateLimitExceeded as e:
         try:
             if SEND_PM: reddit.send_message(comment.author, PM_SUBJECT, REPLY_STRING, raise_captcha_exception=True)

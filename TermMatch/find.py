@@ -9,9 +9,7 @@ from socket import timeout
 from time import sleep
 import sqlite3
 
-#
-# Reddit Options
-# -
+# > Options
 
 USERNAME = ""
 # Your Reddit's bot username.
@@ -39,25 +37,13 @@ SLEEP = 1
 # If you're searching medium subreddits (/r/Skyrim): sleep for 60-300 seconds (1-5 minutes).
 # If you're searching big subreddits (/r/AskReddit): sleep for a 1-30 seconds.
 
-# -
-# Reddit Options End
-#
-
-# 
-# Reddit Login
-# -
+# > Login
 
 reddit = praw.Reddit(USERAGENT)
 try: reddit.login(USERNAME, PASSWORD)
 except praw.errors.InvalidUserPass: raise SystemExit
 
-# -
-# Reddit Login End
-#
-
-#
-# SQLite
-# -
+# > SQLite
 
 con = sqlite3.connect("comment_data")
 c = con.cursor()
@@ -76,14 +62,8 @@ def commentCount():
     c.execute("SELECT * FROM comments")
     con.commit()
     return int((len(c.fetchall())))   
-    
-# -
-# SQLite End
-#
 
-#
-# Reddit Search
-# -
+# > Search
 
 def work(comment):
     try:
@@ -103,7 +83,3 @@ while True:
             if not exists(comment.id) and str(reddit.user) != str(comment.author):
                 if any(word.lower() in comment.body.lower() for word in WORDS) and not exists(comment.id): work(comment)
     sleep(SLEEP)
-    
-# -
-# Reddit Search End
-#

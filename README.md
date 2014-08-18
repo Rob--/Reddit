@@ -1,7 +1,20 @@
 My Reddit bots.
-
+================
 + TermMatch
   * Simple bot that searches for given words and either replies or sends a PM (or both) within given subreddits.
+
+================
+
+#Usage
++ You will **need** Python 3.4.1 to use this bot.
+  * To directly install Python 3.4.1 for 32 bit click [here](https://www.python.org/ftp/python/3.4.1/python-3.4.1.msi).
+  * To directly install Python 3.4.1 for 64 bit click [here](https://www.python.org/ftp/python/3.4.1/python-3.4.1.amd64.msi).
++ You will need PRAW to use this bot.
+  * To install PRAW, go to [this GitHub page] and press "*Download ZIP*"
+  * If you want to directly install PRAW, click [here](https://github.com/praw-dev/praw/archive/master.zip).
++ Once you've got both Python 3.4.1 and PRAW installed you can run the bot.
+  * Download the bot's source code (e.g. find.py) to a text document and save the file as a `.py` (make sure the file is now a python file).
+  * If there are multiple files, save all of them in the same location (preferably in a folder, e.g. `Desktop/NameOfBot`.
 
 #License
 ```

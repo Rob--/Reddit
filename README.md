@@ -14,7 +14,7 @@ For information on Python go to [this website](https://www.python.org/).
   * To directly install Python 3.4.1 for 32 bit click [here](https://www.python.org/ftp/python/3.4.1/python-3.4.1.msi).
   * To directly install Python 3.4.1 for 64 bit click [here](https://www.python.org/ftp/python/3.4.1/python-3.4.1.amd64.msi).
 
-+ You will need PRAW to use this bot.
++ You will **need** PRAW to use this bot.
   * To install PRAW, go to [this GitHub page](https://github.com/praw-dev/praw) and press "*Download ZIP*"
   * If you want to directly install PRAW, click [here](https://github.com/praw-dev/praw/archive/master.zip).
   * Copy the PRAW file to your Desktop and make sure it's extracted.

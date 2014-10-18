@@ -1,4 +1,4 @@
-# TermMatch, Reddit bot by /u/AndroidL
+# TermMatch, Reddit bot
 #
 # Finds certain terms within subreddits (documents them if needed) and fires an action.
 

@@ -9,7 +9,7 @@ My Reddit bots.
 
 + You will need PRAW & Python 3 to use this bot.
   * [PRAW](https://github.com/praw-dev/praw)  
-  * 
+
 #License
 ```
 The MIT License (MIT)

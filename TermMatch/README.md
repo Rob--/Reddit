@@ -3,7 +3,7 @@ TermMatch
 
 ### > Description
 A simple Reddit bot developed with PRAW.
-The bot connects to a SQLite DB and simply searches a stream of comments from the give subreddits and finds matches of the words given.
+The bot connects to a SQLite DB and simply searches a stream of comments from the given subreddits and finds matches of the words given.
 
 ### > What does it do?
 The bot searches for words under the `WORDS` array from subreddits under the `SUBREDDITS` array.
